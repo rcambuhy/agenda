@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Agenda</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contatos</h1>
+            <img src="./telephone.png">
+        </header>
+        <form id="form-contact">
+            <input id="contact-add" type="text" placeholder="Nome" autocomplete="off" required>
+            <input id="number-contact" type="tel" placeholder="Telefone/Celular" autocomplete="off" required>
+            <button type="submit">Adicionar +</button>
+        </form>
+        <p class="failure-message">O contato já existe. <br>
+            Deseja adicionar um número de telefone adicional?</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone/Celular</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<script src="./agenda.js"></script>
+</html>
